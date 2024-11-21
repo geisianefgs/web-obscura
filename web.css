@@ -19,9 +19,10 @@ body{
 main{
     min-width: 320px;
     position: relative;
+    margin: auto;
 }
 
-#titulo{
+.titulo{
     color: red;
     text-shadow: 2px 2px 3px black;
     text-align: center;
@@ -43,38 +44,31 @@ h2{
     background-color: black;
     color: white;
     padding: 5px;
-    margin: -8px -20px 0px -20px;
+    margin-top: -6px;
 }
 
-#ouviufalar{
+.ouviufalar{
     color: black;
     background: linear-gradient(to bottom, white, #ffffff8f);
     padding: 5px 20px;
     font-weight: bold;
     margin-bottom: 25px;
-    margin-left: -8px;
-    margin-right: -20px;
 }
 
-#oquee{
+.oquee{
     color: black;
     background: linear-gradient(to bottom, white, #ffffff8f);
     padding: 5px 20px;
     font-weight: bold;
     margin-bottom: 25px;
-    margin-left: -8px;
-    margin-right: -20px;
 }
 
-#comoacessar{
+.comoacessar{
     color: black;
     background: linear-gradient(to bottom, white, #ffffff8f);
     padding: 5px 20px;
     font-weight: bold;
     margin-bottom: 25px;
-    margin-left: -8px;
-    margin-right: -20px;
-
 }
 
 p, ul{
@@ -86,6 +80,7 @@ p, ul{
 
 ul{
     list-style: "🔴";
+    padding-right: 10px;
 }
 
 li{
@@ -94,45 +89,47 @@ li{
 
 .lista{
     background-color: black;
-    margin: -8px;
+    margin: 100px 0px;
     color: white;
     padding: 20px 10px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: -20px;
 }
 
 .lista > h2{
     text-align: center;
     color: red;
-    
 }
 
-.riscosarticle{
+.riscosdeepweb{
     background-image: url(imagens/pontaiceberg.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-    padding: 30px;
-    margin: -20px;
+    background-size: contain;
+    padding: 30px 40px;
+}
+
+.riscosdarkpweb{
+    background-image: url(imagens/fundoiceberg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding: 30px 40px;
 }
 
 .riscos{
     background:linear-gradient(to bottom, #ff0000, #ff000000);
-    width: 100vw;
     padding-bottom: 15px;
     color: white;
     font-size: 30px;
     text-shadow: 2px 2px 2px black;
-    margin: -30px -20px 15px -20px;
+    margin: -30px 0px 15px 0px;
     text-align: center;
 }
 
 .riscodescritos{
     background: linear-gradient(to bottom, #ffffff59, #ffffff00 );
     padding: 5px 20px 5px 0px;
-    margin: -26px -20px 0px -20px;
-    padding: 30px 10px;
+    margin: -26px -10px 0px -10px;
+    padding: 30px 20px 30px 20px;
     color: white;
     text-shadow: 2px 2px 2px black;
 }
@@ -148,9 +145,17 @@ li{
 
 .beneficiodesvantagem{
     font-family: "Sriracha", serif;    
-    margin-top: 100px;
+    margin-top: 30px;
+}
+
+h3{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
 }
 
 .rodape{
-
+    background-color: #ffffffab;
+    padding: 15px;
 }
