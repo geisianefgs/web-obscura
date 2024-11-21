@@ -23,11 +23,13 @@ main{
 }
 
 .titulo{
-    color: red;
     text-shadow: 2px 2px 3px black;
     text-align: center;
     font-size: 4em;
     font-family: "Nosifer", sans-serif;
+    color: white;
+    background-color: red;
+    margin: -10px -10px 100px -10px;
 }
 
 article{
@@ -169,7 +171,17 @@ h3{
     margin-top: 40px;
 }
 
-
+#titutodarkweb{
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    font-size: 4em;
+    font-family: "Nosifer", sans-serif;
+    color: white;
+    background-color: red;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-bottom: 100px;
+}
 
 #darkweb{
     margin-top: 200px;
