@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Nosifer&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap'); /*hallowen*/
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Creepster&family=Nosifer&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+strong{
+    color: red;
+}
+
+body{
+    background-image: url(imagens/hacker04.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+main{
+    min-width: 320px;
+    margin: auto;
+}
+
+.titulo{
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    font-size: 4em;
+    font-family: "Nosifer", sans-serif;
+    color: white;
+    background-color: red;
+    margin: -10px -10px 100px -10px;
+}
+
+article{
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+h2{
+    font-family: "Sriracha", sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: -6px -20px 0px -20px;
+    font-size: 2em;
+}
+
+.ouviufalar{
+    color: black;
+    background: linear-gradient(to bottom, white, #ffffff8f);
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.oquee{
+    color: black;
+    background: linear-gradient(to bottom, white, #ffffff8f);
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.comoacessar{
+    color: black;
+    background: linear-gradient(to bottom, white, #ffffff8f);
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+p, ul{
+    font-family: "Sriracha", serif;    
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+ul{
+    list-style: "🔴";
+    padding-right: 10px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.lista{
+    background-color: black;
+    margin: 100px 0px;
+    color: white;
+    padding: 20px 10px;
+}
+
+.lista > h2{
+    text-align: center;
+    color: red;
+}
+
+.riscosdeepweb{
+    background-image: url(imagens/pontaiceberg.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.riscosdarkweb{
+    background-image: url(imagens/fundoiceberg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    margin-bottom: 50px;
+}
+
+.riscos{
+    background:linear-gradient(to bottom, #ff0000, #ff000000);
+    padding-bottom: 15px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+.riscodescritos{
+    background: linear-gradient(to bottom, #ffffff59, #ffffff00 );
+    padding: 5px 20px 5px 0px;
+    margin: -26px 0px 0px 0px;
+    padding: 30px 20px 30px 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.topicorisco{
+    font-weight: bolder;
+    color: black;
+    background-color: #ff0000a9;
+    padding: 0px 5px;
+    text-shadow: 0px 0px 0px black;
+    border-radius: 3px;
+}
+
+.beneficiodesvantagem{
+    font-family: "Sriracha", serif;    
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+h3{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.rodapedeepweb{
+    background-color: #ffffffab;
+    padding: 15px;
+}
+
+.rodapedarkweb{
+    background-color: #ffffffab;
+    padding: 15px;
+    margin-bottom: -10px;
+    margin-top: 40px;
+}
+
+#titutodarkweb{
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    font-size: 4em;
+    font-family: "Nosifer", sans-serif;
+    color: white;
+    background-color: red;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-bottom: 100px;
+}
+
+#darkweb{
+    margin-top: 200px;
+}
